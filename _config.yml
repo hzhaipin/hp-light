@@ -1,5 +1,5 @@
 # Site settings
-title: 闪电孵化器
+title: HP-Lighting
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -17,7 +17,7 @@ markdown: kramdown
 # 样式资源主地址
 qiniu: /
 # UGC资源地址
-qiniu_upload: http://7xkw3c.com1.z0.glb.clouddn.com/upload/
+qiniu_upload: https://zico.oss-cn-beijing.aliyuncs.com/test/
 
 home_startups:
   - 卓越三维 
@@ -25,10 +25,26 @@ home_startups:
   - 慕声定制耳机
   - 拓奇科技
 
+product_categories:
+  - 导轨灯
+  - LED 天花射灯
+  - LED 伸缩灯
+  - 栅格灯
+  - 迷你栅格灯
+  - 筒灯
+  - 明装筒灯
+  - 模组化射灯
+  - LED 酒柜灯
+  - 酒店洗墙灯
+  - 吊线灯
+  - 壁灯地灯
+
 # 站点信息
 slogan: 致力于早期科技创业孵化
 qrcode: qrcode.jpg
 
+brand_color: #9fcb4f
+
 collections:
-  startup:
+  product:
     output: true

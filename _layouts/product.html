@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="startups">
+	<div class="container startup product-detail-page page" style="padding-top: 20px">
+		<div class="col-md-10 product-detail">
+			<div class="cbox startup-header">
+				<div class="col-md-4 startup-cover">
+					<img src="{{ page.cover }}" />
+				</div>
+				<div class="col-md-8 startup-info">
+					<div class="title">{{ page.title }}</div>
+					<div class="desc">{{ page.desc }}</div>
+				</div>
+			</div>
+
+			<div class="startup-main cbox title-box intro">
+				<div class="box-title">
+					<h2>产品详情</h2>
+				</div>
+				<article>{{ content }}</article>
+			</div>
+		</div>
+
+		<div class="col-md-2 cbox product-category-sidebar">
+			<div class="box-title">
+				<h2>产品系列</h2>
+			</div>
+			<div class="product-category-list">
+				{% for cat in site.product_categories %}
+					<a href="/product?category={{ cat }}">{{ cat }}</a>
+				{% endfor %}
+			</div>
+		</div>
+
+	</div>
+</div>

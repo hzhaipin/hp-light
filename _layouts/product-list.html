@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+{% include banner.html %}
+
+<div class="product-list-page">
+	<div class="container">
+		<ul class="product-list products">
+			{% assign products = site.product | sort: 'date' | reverse %}
+			{% for cat in site.product_categories %}
+				<h2 class="category" id="{{cat}}">{{cat}}</h2>
+				<div class="row">
+					{% for item in products %}
+						{% if item.categories contains cat %}
+							<li>
+								<a href="{{ item.url | prepend: site.baseurl }}">
+									<div class="item" >
+										<div class="item-cover">
+											<img src="{{ item.cover }}"/>
+										</div>
+										<div class="item-body">
+											<h3>
+												<div>{{ item.title }}</div>
+											</h3>
+										</div>
+									</div>
+								</a>
+							</li>
+						{% endif %}
+					{% endfor %}
+				</div>
+			{% endfor %}
+
+			<!-- {% assign results = site.product | sort: 'date' | reverse %}
+		  {% for item in results %}
+		    {% if item.archive != true %}
+			    <li>
+			      <div class="item">
+			        <div class="item-cover">
+			          <a href="{{ item.url }}">
+			          	<img src="{{ item.cover | prepend: site.qiniu_upload }}"/>
+			          </a>
+			        </div>
+			        <div class="item-body">
+			          <h3>
+			            <a class="post-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+			          </h3>
+			        </div>
+			      </div>
+			    </li>
+			{% endif %}
+		  {% endfor %} -->
+		</ul>
+
+	</div>
+
+	
+</div>
