@@ -389,7 +389,8 @@ img {
 
 .startup-header {
     overflow: hidden;
-    padding: 20px !important;
+    margin-bottom: 20px;
+    padding: 0 !important;
     .startup-cover {
         display: block;
         overflow: hidden;
@@ -399,7 +400,7 @@ img {
         }
     }
     .startup-info {
-        padding-left: 20px;
+        padding: 20px;
         .title {
             font-size: 28px;
             margin-top: 20px;
@@ -1026,6 +1027,13 @@ table {
         .social {
             position: relative;
             margin-bottom: 20px;
+        }
+    }
+    .startup-header {
+        .startup-info {
+            padding-top: 0;
+            padding-left: 30px;
+            padding-right: 30px;
         }
     }
 }
