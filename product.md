@@ -3,9 +3,9 @@ layout: product-list
 title: 产品中心
 permalink: /product/
 
-cover: https://www.chinafsl.com/light/templates/specialty/images/banner-img04.jpg
-header: 自 2013 年以来，累计孵化 20 余个项目团队
-secondary: 聚焦于移动互联网及智能硬件领域
+cover: https://zico.oss-cn-beijing.aliyuncs.com/test/esvnk.jpg
+header: 丰富专业的产品库
+secondary: 产品适用于各类商业场所、商业住宅、医疗、体育、户外，并提供产品定制服务。
 ---
 
 这里不用填写
