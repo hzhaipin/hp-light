@@ -7,27 +7,9 @@ layout: default
 <div class="container page post-page">
 	<div class="row">
 	  
-		<div class="col-md-9 post-list">
-	  		{{ content }}
-	  	</div>
-
-	  <div class="col-md-3">
-	  	<div class="cbox title-box posts-category">
-	  		<div class="box-title">
-	  			<h2>分类</h2>
-	  		</div>
-
-	  		<ul>
-		  		{% for category in site.categories %}
-		  			<li>
-		  				<a href="/blog/category/#{{ category | first }}">
-						{{ category | first }}
-						</a>
-					</li>
-				{% endfor%}
-			</ul>
-	  	</div>
-	  </div> 
+		<div class="post-list">
+			{{ content }}
+	  </div>
 
 	</div>
 </div>
