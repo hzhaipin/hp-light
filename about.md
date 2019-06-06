@@ -5,7 +5,7 @@ permalink: /about/
 
 header: 杭州海品照明有限公司
 secondary: 专注照明行业解决方案研发创新
-cover: https://zico.oss-cn-beijing.aliyuncs.com/test/esvnk.jpg
+cover: https://zico.oss-cn-beijing.aliyuncs.com/test/1j074.jpg
 ---
 
 ## 关于海品
@@ -24,16 +24,15 @@ cover: https://zico.oss-cn-beijing.aliyuncs.com/test/esvnk.jpg
 
 
 <div class="row">
-  <a class="col-sm-6" href="https://ditu.amap.com/place/B0FFF5UEF2">
-    <img src="https://zico.oss-cn-beijing.aliyuncs.com/test/25njg.png"/>
+  <a class="col-sm-6" href="https://ditu.amap.com/place/B0FFH42LOW">
+    <img src="https://zico.oss-cn-beijing.aliyuncs.com/test/6b6p7.png"/>
   </a>
   <div class="col-sm-6">
   <ul>
-    <li>联系人：XXX</li>
-    <li>地　址：浙江省杭州市XXX</li>
-    <li>电　话：0757-82807006</li>
-    <li>传　真：0757-82807092　0757-82824747</li>
-    <li>电　邮：hello@haiping.com</li>
+    <li>联系人：朱先生</li>
+    <li>地　址：杭州市西湖区三墩镇丰盛九玺8幢</li>
+    <li>电　话：18857864170</li>
+    <li>电　邮：zyb@hzhaipin.com</li>
   </ul>
   </div>
 </div>

@@ -371,9 +371,21 @@ img {
     left: 0;
     right: 0;
     text-align: center;
+    background: rgba(0,0,0,0.4);
+    
 
     .container {
       padding-top: 80px;
+
+      h2 {
+        color: #f2f2f2;
+        text-shadow: 0 2px 8px rgba(0,0,0,.3);
+      }
+
+      p {
+        color: #eee;
+        text-shadow: 0 2px 8px rgba(0,0,0,.3);
+      }
     }
   }
 }

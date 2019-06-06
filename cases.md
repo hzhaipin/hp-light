@@ -5,7 +5,7 @@ permalink: /cases/
 
 header: 海品照明案例
 secondary: 根据不同行业客户的实际环境应用需求，提供定制化和最专业LED照明解决方案。
-cover: https://zico.oss-cn-beijing.aliyuncs.com/test/esvnk.jpg
+cover: https://zico.oss-cn-beijing.aliyuncs.com/test/n240r.jpg
 ---
 
 <div>
