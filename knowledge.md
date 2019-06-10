@@ -1,9 +1,9 @@
 ---
 layout: about
-title: 照明学院
+title: 照明知识
 permalink: /knowledge/
 
-header: 照明学院
+header: 照明知识
 secondary: 光、色彩、商业照明与视觉
 cover: https://zico.oss-cn-beijing.aliyuncs.com/test/45ekk.jpg
 ---
