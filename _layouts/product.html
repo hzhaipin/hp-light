@@ -31,7 +31,7 @@ layout: default
 			</div>
 			<div class="product-category-list">
 				{% for cat in site.product_categories %}
-					<a href="/product?category={{ cat }}">{{ cat }}</a>
+					<a href="/product#{{ cat }}">{{ cat }}</a>
 				{% endfor %}
 			</div>
 		</div>
