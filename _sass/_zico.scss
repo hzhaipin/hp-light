@@ -475,7 +475,7 @@ img {
 
   li {
     float: left;
-    width: 25%;
+    width: 20%;
     padding: 15px;
     font-size: 13px;
     line-height: 20px;
@@ -507,14 +507,15 @@ img {
         position: relative;
         display: block;
         overflow: hidden;
-        height: 180px;
         border-radius: 4px;
-        border-bottom: 1px solid #f0f0f0;
         
+        .cover {
+          background-size: cover;
+        }
 
         img {
           width: 100%;
-          min-height: 150px;
+          border: 1rpx solid #f7f7f7;
         }
 
         .mask {
@@ -523,7 +524,7 @@ img {
           left: 0;
           bottom: 0;
           right: 0;
-          background: rgba(0,0,0,0);
+          background: rgba(0,0,0,0.03);
           transition: all 0.3s ease-out;
         }
       }
@@ -536,7 +537,12 @@ img {
         h3 {
           margin: 0px;
           font-weight: normal;
-          font-size: 16px;
+          font-size: 15px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          display: inherit;
+
 
           a {
             color: #333;

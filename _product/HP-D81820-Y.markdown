@@ -1,8 +1,8 @@
 ---
 layout: product
-title:  HP-D81820X
+title:  HP-D81820-Y/D81830-Y
 date:   2013-12-01 14:05:17
-cover:	https://zico.oss-cn-beijing.aliyuncs.com/test/fic0y.png
+cover:	https://zico.oss-cn-beijing.aliyuncs.com/test/HP-D81820-Y.jpg
 categories: ['导轨灯']
 ---
 

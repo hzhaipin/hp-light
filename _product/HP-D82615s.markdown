@@ -1,8 +1,8 @@
 ---
 layout: product
-title:  HP-D82615S
+title:  HP-D82615S/D82625S/D82635S
 date:   2013-12-01 14:05:17
-cover:	https://zico.oss-cn-beijing.aliyuncs.com/test/lwxoh.png
+cover:	https://zico.oss-cn-beijing.aliyuncs.com/test/HP-D82615S.jpg
 categories: ['导轨灯']
 ---
 
