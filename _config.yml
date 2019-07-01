@@ -19,13 +19,8 @@ qiniu: /
 # UGC资源地址
 qiniu_upload: https://zico.oss-cn-beijing.aliyuncs.com/test/
 
-home_startups:
-  - 卓越三维 
-  - 海导科技
-  - 慕声定制耳机
-  - 拓奇科技
-
 product_categories:
+  - 磁吸导轨灯
   - 导轨灯
   - 天花射灯
   - 伸缩灯
